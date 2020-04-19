@@ -1,0 +1,32 @@
+
+.user-list {
+  width: 100%;
+  max-width: 700px;
+  margin: 30px auto;
+  border: 3px solid #ccc;
+    padding: 50px;
+    border-radius: 12px;
+}
+caption { 
+  display: table-caption;
+  text-align: left;
+}
+.user-list table{
+  border-collapse: collapse;
+}
+.user-list tr{
+  cursor: pointer;
+}
+.user-list tr.selected-row{
+  background-color: #ede8e8;
+}
+
+
+.user-list th{
+  text-transform: capitalize;
+  text-align: left;
+}
+.user-list  td, .user-list th{
+  border: 1px solid #ccc;
+  padding: 10px;
+}

@@ -1,0 +1,1 @@
+export const selectedClass  = 'selected-row';
